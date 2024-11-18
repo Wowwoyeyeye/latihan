@@ -1,0 +1,104 @@
+/* General Footer Styles */
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; 
+}
+
+
+.my-img {
+  max-width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.login-container {
+  max-width: 400px; 
+  margin: 100px auto;
+  padding: 20px;
+  background: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+.login-container h2 {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 10px;
+  background: #1a1a1a; 
+  color: #ddd; 
+  padding: 40px 20px; 
+  text-align: center;
+  position: relative; 
+  width: 100%;
+}
+
+/*  */
+
+footer h5 {
+  font-size: 20px; 
+  margin-bottom: 10px;
+  font-weight: 600; 
+  color: #ffcc00; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.8; 
+  margin: 0;
+  font-family: "Arial", sans-serif; 
+}
+
+.list-unstyled {
+  list-style: none; 
+  padding: 0;
+  margin: 10px 0;
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.list-unstyled li {
+  font-size: 14px;
+}
+
+.list-unstyled a {
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.list-unstyled a:hover {
+  color: #fff;
+}
+
+footer .contact-info {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #bbb;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 10px;
+  }
+
+  footer h5 {
+    font-size: 18px;
+  }
+
+  .list-unstyled {
+    flex-direction: column; 
+    gap: 10px;
+  }
+}
